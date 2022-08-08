@@ -1,0 +1,1 @@
+cmd_/home/ultima/asp5/char_driver.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/ultima/asp5/char_driver.ko /home/ultima/asp5/char_driver.o /home/ultima/asp5/char_driver.mod.o;  true
